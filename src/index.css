@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.film{
+  max-width: 300px;
+  transition:  all 0.2s;
+}
+.film:hover {
+  scale: 1.03;
+  transition: all 0.3s;
+}
+.detail-img{
+  max-height: 500px;
+}
+.movie-detail{
+  min-height: 88vh;
+  overflow: hidden;
+}
